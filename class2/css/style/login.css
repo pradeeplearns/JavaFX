@@ -1,0 +1,22 @@
+.root {
+    -fx-background-color: #3d97b8;
+    -fx-font-size: 12pt;
+}
+/*name of the class will add property to all class instances*/
+.label {
+    -fx-text-fill: green;
+}
+
+.button {
+    -fx-background-color: linear-gradient(#a8a19f, #6666ea);
+    -fx-border-radius: 6;
+    -fx-text-fill: #f1efee;
+}
+.button-yellow:hover {
+    -fx-background-color: darkgoldenrod;
+    -fx-border-radius: 4;
+    -fx-text-fill: #ffffff;
+}
+#bold-label {
+    -fx-font-weight: bold;
+}
